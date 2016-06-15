@@ -17,9 +17,10 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="platform_build" remote="type-1a" revision="android-6.0" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
