@@ -12,7 +12,7 @@
            review=".."
            fetch="https://github.com/Type-1a" />
 
-  <default revision="refs/tags/android-6.0.1_r54"
+  <default revision="refs/tags/android-6.0.1_r63"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
